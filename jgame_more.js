@@ -16,6 +16,7 @@ var move ={
     },
     stamp : function(id){
         const stamped = new Component(id.width, id.height, id.color, id.x, id.y, id.type)
+        
         return stamped;
     },
     circle : function(id, speed){
