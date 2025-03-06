@@ -268,5 +268,5 @@ class Sound {
         this.sound.pause();
     }
 }
-let display = new Display()
+var display = new Display()
 comm = []
